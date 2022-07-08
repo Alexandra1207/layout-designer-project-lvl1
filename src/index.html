@@ -1,13 +1,266 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>layout-designer-project-lvl1 | Alexandra1207</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section>
+        <div class="header_top">
+          <h1 class="header_title">
+            <span class="title-orange">Когнитивные искажения</span>
+            в программировании
+          </h1>
+          <img
+            class="header_img"
+            src="images/main.png"
+            alt="риснок человечка с ноутбуком"
+          />
+        </div>
+        <div class="header_content">
+          <p class="text">
+            Мы, разработчики, часто сталкиваемся с проблемами, которые идут
+            вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
+            картину. Некоторые из этих проблем малозаметны, некоторые
+            существенны. Иногда с ними можно как-то справиться, а иногда, к
+            сожалению, нет.
+          </p>
+          <p class="text">
+            Вместе они формируют что-то вроде замкнутого цикла, и это может
+            привести к длительной потере продуктивности, багам и бесконечному
+            разочарованию.
+          </p>
+          <p class="text">
+            Если мы сможем минимизировать воздействие одного или нескольких из
+            этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+          </p>
+        </div>
+        <a class="header_link" href="#"> подробнее </a>
+      </section>
+    </header>
+    <main class="main">
+      <section class="distortions">
+        <h2 class="distortions_title">
+          Что же это такое,
+          <span class="title-orange">Когнитивные искажения?</span>
+        </h2>
+        <p class="text">Что такое когнитивные искажения. Petrovna Channel</p>
+        <div class="distortions_video"></div>
+      </section>
+      <section class="five-distortions">
+        <ul class="five-distortions_list">
+          <li class="five-distortions_item">
+            <div class="five-distortions_title">
+              <span class="orange">5 когнитивных искажений</span>
+              о существовании которых стоит помнить
+            </div>
+          </li>
+          <li class="five-distortions_item">
+            <div class="five-distortions_num">1</div>
+            <h3 class="five-distortions_item-title title-orange">
+              Эффект ИКЕА
+            </h3>
+            <p class="five-distortions_text">
+              Вы переоцениваете собственные решения, и, как следствие,
+              недооцениваете решения других.
+            </p>
+          </li>
+          <li class="five-distortions_item">
+            <div class="five-distortions_num">2</div>
+            <h3 class="five-distortions_item-title title-orange">
+              Преждевременная оптимизация
+            </h3>
+            <p class="five-distortions_text">
+              Вы оптимизируете что-то задолго до того, как в этом появляется
+              необходимость. недооцениваете решения других.
+            </p>
+          </li>
+          <li class="five-distortions_item">
+            <div class="five-distortions_num">3</div>
+            <h3 class="five-distortions_item-title title-orange">
+              Искажение новизны
+            </h3>
+            <p class="five-distortions_text">
+              Вы даёте более высокую оценку тем событиям, которые произошли
+              недавно, и недооцениваете более старые.
+            </p>
+          </li>
+          <li class="five-distortions_item">
+            <div class="five-distortions_num">4</div>
+            <h3 class="five-distortions_item-title title-orange">
+              Гиперболическое обесценивание
+            </h3>
+            <p class="five-distortions_text">
+              Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+              крупную, недоступную сейчас, но доступную в будущем.
+            </p>
+          </li>
+          <li class="five-distortions_item">
+            <div class="five-distortions_num">5</div>
+            <h3 class="five-distortions_item-title title-orange">
+              Ошибка планирования
+            </h3>
+            <p class="five-distortions_text">
+              Неправильно рассчитывать время необходимое для завершения задачи.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-</body>
+      <section class="distortion light-style">
+        <article class="columns">
+          <img src="images/1.png" alt="рисунок эффект ИКЕЯ" />
+          <h4 class="distortion_subtitle">Когнитивные искажения</h4>
+          <h3 class="distortion_title">Эффект ИКЕА</h3>
+          <p class="distortion_description">
+            Вы оптимизируете что-то задолго до того, как в этом появляется
+            необходимость.
+          </p>
+          <h5 class="distortion_demonstration dark-style">Как проявляется</h5>
+          <p class="text">
+            Если вы добавите аэродинамический спойлер к своему старому
+            автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
+          </p>
+          <p class="text">
+            Отличный пример: писать максимально подтюненный и
+            высокопроизводительный код для всего лишь экспериментального
+            проекта.
+          </p>
+        </article>
+      </section>
+
+      <section class="distortion dark-style">
+        <article class="columns">
+          <h4 class="distortion_subtitle">Когнитивные искажения</h4>
+          <h3 class="distortion_title">Преждевременная оптимизация</h3>
+          <p class="distortion_description">
+            Вы переоцениваете собственные решения, и, как следствие,
+            недооцениваете решения других.
+          </p>
+          <img src="images/2.png" alt="рисунок Когнитивные искажения" />
+          <h5 class="distortion_demonstration light-style">Как проявляется</h5>
+          <p class="text">
+            Когнитивное искажение называется так из-за того, что потребители
+            зачастую предпочитают покупать товары, которые они могут собрать
+            сами, а не уже собранные кем-то.
+          </p>
+          <p class="text">
+            Мы склонны переоцнивать наши собственные решения и недооценивать
+            решения других. Если вы когда-то работали в компании, которая
+            использовала тупой внутренний инструмент вместо более удобного
+            готового решения, вы понимаете, о чём я говорю.
+          </p>
+        </article>
+      </section>
+
+      <section class="distortion light-style">
+        <article class="columns">
+          <img src="images/3.png" alt="рисунок Искажение новизны" />
+          <h4 class="distortion_subtitle">Когнитивные искажения</h4>
+          <h3 class="distortion_title">Искажение новизны</h3>
+          <p class="distortion_description">
+            Вы даёте более высокую оценку тем событиям, которые произошли
+            недавно, и недооцениваете более старые.
+          </p>
+          <h5 class="distortion_demonstration dark-style">Как проявляется</h5>
+          <p class="text">
+            Часто это искажение настигает нас, когда нужно решение проблемы и…
+            о! Мы как раз только что решили подобную проблему! Давайте
+            использовать это же решение, потому что оно сработало, и мы помним
+            как!
+          </p>
+          <p class="text">
+            Вы замечаете, что пользуетесь теми же рабочими методиками раз за
+            разом? Если да, возможно, вы смотрите на разные проблемы под одним и
+            тем же углом.
+          </p>
+        </article>
+      </section>
+
+      <section class="distortion dark-style">
+        <article class="columns">
+          <h4 class="distortion_subtitle">Когнитивные искажения</h4>
+          <h3 class="distortion_title">Гиперболическое обесценивание</h3>
+          <p class="distortion_description">
+            Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+            крупную, недоступную сейчас, но доступную в будущем.
+          </p>
+          <img src="images/4.png" alt="рисунок Гиперболическое обесценивание" />
+          <h5 class="distortion_demonstration light-style">Как проявляется</h5>
+          <p class="text">
+            Вы когда-нибудь откладывали написание теста? Ловили себя на
+            использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается
+            гиперболическое обесценивание.
+          </p>
+          <p class="text">
+            Немедленная выгода от использования чего-то быстродоступного
+            значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить
+            правильный синтаксис для перемещения на нужную строчку. Но как
+            только вы поймёте как перемещаться быстрее, выгода в будущем намного
+            выше. В итоге вы сохраните много времени.
+          </p>
+        </article>
+      </section>
+
+      <section class="distortion light-style">
+        <article class="columns">
+          <img src="images/5.png" alt="рисунок Ошибка планирования" />
+          <h4 class="distortion_subtitle">Когнитивные искажения</h4>
+          <h3 class="distortion_title">Ошибка планирования</h3>
+          <p class="distortion_description">
+            Неправильно рассчитывать время необходимое для завершения задачи.
+          </p>
+          <h5 class="distortion_demonstration dark-style">Как проявляется</h5>
+          <p class="text">
+            Одно из искажений, которое должно признать большинство из нас. И
+            менеджеры проекта, и сами пользователи продукта — все склонны
+            ставить сроки, в которые невозможно закончить запланированное.
+          </p>
+          <p class="text">
+            Это отлично выражается в старом афоризме: Первые 90% готового кода
+            отнимают первые 90% времени разработки. Оставшиеся 10% отнимают
+            вторые 90% времени разработки.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <section>
+        <div class="subscribe">
+          <h3 class="footer_title">
+            Хотите узнать больше? Подпишитесь на обновления
+          </h3>
+          <form>
+            <label for="name">Электронная почта</label>
+            <input
+              id="name"
+              type="email"
+              placeholder="Ваша электронная почта"
+            />
+            <button class="subscribe_btn"></button>
+            <p>
+              Подписываясь, вы принимаете
+              <a class="subscribe_link" href="#">правила сервиса</a>
+            </p>
+          </form>
+          <p class="copyright">© 2020 Константин Константинопольский</p>
+          <p class="footer_text">
+            По материалам статьи
+            <a class="footer_text-link" href="#"
+              >Yash Ranadive Cognitive Biases in Programming</a
+            >
+          </p>
+          <p class="footer_text">
+            <a class="footer_text-link" href="#"
+              >Курсы программирования Hexlet</a
+            >
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

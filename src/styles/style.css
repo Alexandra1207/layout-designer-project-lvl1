@@ -135,7 +135,7 @@ h3 {
   margin-top: 0;
 }
 
-.mb-40 {
+.col-2 p:last-of-type {
   margin-bottom: 40px;
 }
 
@@ -155,5 +155,29 @@ h3 {
   cursor: pointer;
 }
 
+.distortions { 
+  text-align: center;
+}
+
+.distortions__text {
+  margin-bottom: 30px;
+}
+
+.distortions__title {
+  margin-bottom: 28px;
+}
+
+.five-distortions {
+  background-color: var(--main-dark);
+}
+
+.video {
+  margin-bottom: -200px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.five-distortions {
+  padding-top: 100px;
+}
 
 

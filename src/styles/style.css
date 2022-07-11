@@ -131,12 +131,12 @@ h3 {
   right: -105px;
   z-index: -1;
 }
-.header__content {
+.columns {
   column-count: 2;
   column-gap: 30px;
 }
 
-.header__content p {
+.columns p {
   margin-top: 0;
 }
 
@@ -161,7 +161,7 @@ h3 {
 }
 
 .distortions {
-  text-align: center;
+  text-align: center_;
 }
 
 .distortions__text {
@@ -233,3 +233,41 @@ h3 {
 .nav__link p:last-of-type {
   margin-bottom: 0;
 }
+
+.distortion__top {
+  display: flex;
+}
+
+.distortion__img {
+  margin-right: 30px;
+}
+
+.distortion__subtitle {
+  margin: 0;
+  font: 24px/1.2 Neucha, sans-serif;
+  color: var(--semi-dark);
+}
+
+.distortion__title {
+  margin-bottom: 27px;
+}
+
+.distortion__description {
+  font: 34px/1.2 Neucha, sans-serif;
+  margin: 0;
+}
+
+.distortion__demo {
+  column-span: all;
+  font: 14px/1.2 "OpenSans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dark-style {
+  margin: 100px 0 20px;
+  padding: 5px 10px;
+  background-color: var(--brown);
+  color: var(--white);
+}
+

@@ -37,12 +37,6 @@ body {
   margin: 0;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 a,
 button {
   cursor: pointer;
@@ -109,11 +103,6 @@ h3 {
   break-inside: avoid;
 }
 
-.text {
-  font: 16px/1.6em "OpenSans", sans-serif;
-  color: var(--dark);
-}
-
 .header {
   overflow: hidden;
   position: relative;
@@ -131,6 +120,7 @@ h3 {
   right: -105px;
   z-index: -1;
 }
+
 .columns {
   column-count: 2;
   column-gap: 30px;
@@ -161,7 +151,7 @@ h3 {
 }
 
 .distortions {
-  text-align: center_;
+  text-align: center;
 }
 
 .distortions__text {
@@ -186,6 +176,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   margin-bottom: -20px;
 }
 
@@ -238,7 +231,7 @@ h3 {
   display: flex;
 }
 
-.distortion__img {
+.light-style .distortion__img {
   margin-right: 30px;
 }
 
@@ -259,15 +252,28 @@ h3 {
 
 .distortion__demo {
   column-span: all;
+  margin: 100px 0 20px;
+  padding: 5px 10px;
   font: 14px/1.2 "OpenSans", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .dark-style {
-  margin: 100px 0 20px;
-  padding: 5px 10px;
   background-color: var(--brown);
   color: var(--white);
+  z-index: 0;
 }
 
+.dark-style .distortion__img {
+  margin-left: 30px;
+}
+
+.dark-style .distortion__subtitle {
+  color: var(--semi-white);
+}
+
+.bg-white {
+  background-color: var(--white);
+  color: var(--brown);
+}

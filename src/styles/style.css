@@ -202,6 +202,10 @@ h3 {
   transition: all 0.5s;
 }
 
+.nav__link p {
+  color: var(--dark);
+}
+
 .nav__link:hover {
   background-color: var(--main);
 }

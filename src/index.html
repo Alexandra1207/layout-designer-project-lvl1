@@ -69,6 +69,7 @@
           ></iframe>
         </div>
       </section>
+
       <section id="navigation" class="nav">
         <div class="container">
           <ul class="nav__list">
@@ -169,7 +170,6 @@
           </article>
         </div>
       </section>
-
       <section id="premature-optimization" class="distortion bg-img dark-style">
         <div class="container">
           <div class="distortion__top">
@@ -298,50 +298,56 @@
               менеджеры проекта, и сами пользователи продукта — все склонны
               ставить сроки, в которые невозможно закончить запланированное.
             </p>
-            <p class="text avoid">
-              <p>   Это отлично выражается в старом афоризме:</p>
-            Первые 90% готового кода
-              отнимают первые 90% времени разработки. Оставшиеся 10% отнимают
-              вторые 90% времени разработки.
-            </p>
+            <div class="avoid">
+              <p class="text">Это отлично выражается в старом афоризме:</p>
+              <p class="text">
+                Первые 90% готового кода отнимают первые 90% времени разработки.
+                Оставшиеся 10% отнимают вторые 90% времени разработки.
+              </p>
+            </div>
           </article>
         </div>
       </section>
-
-
     </main>
     <footer class="footer">
       <div class="container">
         <div class="subscribe">
           <h3 class="footer__title">
-            Хотите узнать больше? Подпишитесь на обновления
+            Хотите узнать больше?<br>Подпишитесь на обновления
           </h3>
-          <form>
-            <label for="name">Электронная почта</label>
-            <input
-              id="name"
-              type="email"
-              placeholder="Ваша электронная почта"
-            />
-            <button class="subscribe__btn"></button>
-            <p>
+          <form class="subscribe__form">
+            <label class="subscribe__label" for="email"
+              >Электронная почта</label
+            >
+            <div class="input__block">
+              <input
+                class="subscribe__input"
+                id="name"
+                type="email"
+                placeholder="Ваша электронная почта"
+              />
+              <button class="subscribe__btn"></button>
+            </div>
+
+            <p class="subscribe__consent">
               Подписываясь, вы принимаете
               <a class="subscribe__link" href="#">правила сервиса</a>
             </p>
           </form>
-          <p class="copyright">© 2020 Константин Константинопольский</p>
-          <p class="footer__text">
-            По материалам статьи
-            <a class="footer__text-link" href="#"
-              >Yash Ranadive Cognitive Biases in Programming</a
-            >
-          </p>
-          <p class="footer__text">
-            <a class="footer__text-link" href="#"
-              >Курсы программирования Hexlet</a
-            >
-          </p>
         </div>
+        <p class="copyright">© 2020 Константин Константинопольский</p>
+        <p class="footer__text">
+          По материалам статьи
+          <a class="footer__text-link" href="#"
+            >Yash Ranadive Cognitive Biases in Programming</a
+          >
+        </p>
+        <p class="footer__text">
+          <a class="footer__text-link" href="#"
+            >Курсы программирования Hexlet</a
+          >
+          
+        </p>
       </div>
     </footer>
   </body>

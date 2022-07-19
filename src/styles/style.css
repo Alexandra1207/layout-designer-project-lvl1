@@ -8,7 +8,7 @@
 
 @font-face {
   font-weight: 400;
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
 }
 
@@ -32,7 +32,7 @@
 
 body {
   box-sizing: border-box;
-  font: 16px/1.6em "OpenSans", sans-serif;
+  font: 16px/1.6em OpenSans, sans-serif;
   color: var(--dark);
   margin: 0;
 }
@@ -51,7 +51,7 @@ h5,
 h6 {
   margin: 0;
   color: var(--main);
-  font-weight: 400; 
+  font-weight: 400;
   font-family: Neucha, sans-serif;
   line-height: 1.2;
 }
@@ -141,8 +141,8 @@ h3 {
   margin-bottom: 40px;
 }
 
-.after-avoid{
-  break-after: avoid;
+.after-page {
+  break-after: page;
 }
 
 .header-link {
@@ -166,7 +166,7 @@ h3 {
 }
 
 .distortions-title {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .video {
@@ -217,6 +217,12 @@ h3 {
   background-color: var(--main);
 }
 
+.nav-num {
+  font: 64px/1 Neucha, sans-serif;
+  color: var(--main-dark);
+  margin-bottom: 40px;
+}
+
 .nav-link .nav-num,
 .nav-link h3,
 .nav-link p {
@@ -226,12 +232,6 @@ h3 {
 .nav-link:hover h3,
 .nav-link:hover p {
   color: var(--white);
-}
-
-.nav-num {
-  font: 64px/1 Neucha, sans-serif;
-  color: var(--main-dark);
-  margin-bottom: 40px;
 }
 
 .nav-link p:last-of-type {
@@ -269,7 +269,7 @@ h3 {
   column-span: all;
   margin: 100px 0 20px;
   padding: 5px 10px;
-  font: 14px/1.2 "OpenSans", sans-serif;
+  font: 14px/1.2 OpenSans, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -320,6 +320,7 @@ h3 {
 .subscribe-form {
   text-align: left;
 }
+
 .subscribe-label {
   display: block;
   margin-bottom: 10px;

@@ -107,6 +107,7 @@ h3 {
 
 .avoid {
   break-inside: avoid;
+  break-before: page;
 }
 
 .header {
@@ -166,12 +167,12 @@ h3 {
 }
 
 .distortions-title {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .video {
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .nav {
@@ -213,6 +214,10 @@ h3 {
   color: var(--dark);
 }
 
+.col-2 p:last-of-type {
+  margin-bottom: 40px;
+}
+
 .nav-link:hover {
   background-color: var(--main);
 }
@@ -228,6 +233,7 @@ h3 {
 .nav-link p {
   transition: color 1s;
 }
+
 .nav-link:hover .nav-num,
 .nav-link:hover h3,
 .nav-link:hover p {

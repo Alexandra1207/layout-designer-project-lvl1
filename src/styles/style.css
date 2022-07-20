@@ -303,9 +303,11 @@ h3 {
   color: var(--brown);
 }
 
-#ikea-effect .distortion-demo, 
+#ikea-effect .distortion-demo,
+
 #hyperbolic-depreciation .distortion-demo {
   margin-bottom: 0;
+
 } 
 
 .distortion-content {
@@ -316,7 +318,6 @@ h3 {
   max-width: 540px;
   width: 100%;
 }
-
 
 .footer {
   text-align: center;

@@ -110,6 +110,10 @@ h3 {
   break-before: page;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
 .header {
   overflow: hidden;
   position: relative;
@@ -298,6 +302,21 @@ h3 {
   background-color: var(--white);
   color: var(--brown);
 }
+
+#ikea-effect .distortion-demo, 
+#hyperbolic-depreciation .distortion-demo {
+  margin-bottom: 0;
+} 
+
+.distortion-content {
+  display: flex;
+}
+
+.block {
+  max-width: 540px;
+  width: 100%;
+}
+
 
 .footer {
   text-align: center;

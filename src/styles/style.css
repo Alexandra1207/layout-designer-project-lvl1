@@ -142,6 +142,10 @@ h3 {
   margin-top: 0;
 }
 
+.nav-link p {
+  color: var(--dark);
+}
+
 .col-2 p:last-of-type {
   margin-bottom: 40px;
 }
@@ -172,7 +176,7 @@ h3 {
 
 .video {
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba( #000, 15%));
+  filter: drop-shadow(0 16px 32px rgba(#000, 15%));
 }
 
 .nav {
@@ -208,14 +212,6 @@ h3 {
   background-color: var(--light);
   text-decoration: none;
   transition: all 0.5s;
-}
-
-.nav-link p {
-  color: var(--dark);
-}
-
-.col-2 p:last-of-type {
-  margin-bottom: 40px;
 }
 
 .nav-link:hover {
@@ -307,8 +303,7 @@ h3 {
 
 #hyperbolic-depreciation .distortion-demo {
   margin-bottom: 0;
-
-} 
+}
 
 .distortion-content {
   display: flex;

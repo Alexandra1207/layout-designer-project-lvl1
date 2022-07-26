@@ -146,6 +146,12 @@ h3 {
   color: var(--dark);
 }
 
+.nav-num {
+  font: 64px/1 Neucha, sans-serif;
+  color: var(--main-dark);
+  margin-bottom: 40px;
+}
+
 .nav-link .nav-num,
 .nav-link h3,
 .nav-link p {
@@ -222,12 +228,6 @@ h3 {
 
 .nav-link:hover {
   background-color: var(--main);
-}
-
-.nav-num {
-  font: 64px/1 Neucha, sans-serif;
-  color: var(--main-dark);
-  margin-bottom: 40px;
 }
 
 .nav-link:hover .nav-num,

@@ -32,15 +32,16 @@
 
 body {
   box-sizing: border-box;
+  margin: 0;
+
   font: 16px/1.6em OpenSans, sans-serif;
   color: var(--dark);
-  margin: 0;
 }
 
 a,
 button {
-  cursor: pointer;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 h1,
@@ -75,13 +76,15 @@ h3 {
 .bg-img::before {
   content: "";
   position: absolute;
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   opacity: 0.1;
   z-index: -2;
 }
@@ -92,10 +95,12 @@ h3 {
 }
 
 .color-white {
+  display: block;
   color: var(--white);
 }
 
 .color-dark {
+  display: block;
   color: var(--dark);
 }
 
@@ -107,7 +112,6 @@ h3 {
 
 .avoid {
   break-inside: avoid;
-  break-before: page;
 }
 
 .mr-30 {
@@ -116,20 +120,19 @@ h3 {
 
 .header {
   overflow: hidden;
-  position: relative;
 }
 
-.header-top {
-  position: relative;
+.title {
   margin-bottom: 198px;
 }
 
 .header-img {
   position: absolute;
-  height: 530px;
+  height: 525px;
   width: 1080px;
-  top: -47px;
-  right: -270px;
+  top: 55px;
+  right: -105px;
+
   z-index: -1;
 }
 
@@ -147,9 +150,9 @@ h3 {
 }
 
 .nav-num {
+  margin-bottom: 40px;
   font: 64px/1 Neucha, sans-serif;
   color: var(--main-dark);
-  margin-bottom: 40px;
 }
 
 .nav-link .nav-num,
@@ -158,19 +161,23 @@ h3 {
   transition: color 1s;
 }
 
-.col-2 p:last-of-type {
+.mb-40 {
   margin-bottom: 40px;
 }
 
 .header-link {
   display: inline-block;
-  text-align: center;
   padding: 12px 24px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  text-align: center;
   text-decoration: none;
+
   color: var(--white);
   background-color: var(--main);
-  text-transform: uppercase;
-  font-weight: 700;
+
   cursor: pointer;
 }
 
@@ -200,10 +207,11 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  list-style-type: none;
-  margin: 0;
+
+  margin: 0 0 -20px;
   padding: 0;
-  margin-bottom: -20px;
+
+  list-style-type: none;
 }
 
 .nav-item {
@@ -221,8 +229,10 @@ h3 {
   display: inline-block;
   height: 100%;
   padding: 24px;
+
   background-color: var(--light);
   text-decoration: none;
+
   transition: all 0.5s;
 }
 
@@ -254,6 +264,7 @@ h3 {
 
 .distortion-subtitle {
   margin: 0;
+
   font: 24px/1.2 Neucha, sans-serif;
   color: var(--semi-dark);
 }
@@ -263,22 +274,24 @@ h3 {
 }
 
 .distortion-description {
-  font: 34px/1.2 Neucha, sans-serif;
   margin: 0;
+  font: 34px/1.2 Neucha, sans-serif;
 }
 
 .distortion-demo {
-  column-span: all;
   margin: 100px 0 20px;
   padding: 5px 10px;
+  column-span: all;
+
   font: 14px/1.2 OpenSans, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .dark-style {
-  background-color: var(--brown);
   color: var(--white);
+  background-color: var(--brown);
+
   z-index: 0;
 }
 
@@ -299,8 +312,8 @@ h3 {
   color: var(--brown);
 }
 
-#ikea-effect .distortion-demo,
-#hyperbolic-depreciation .distortion-demo {
+.ikea-effect .distortion-demo,
+.hyperbolic-depreciation .distortion-demo {
   margin-bottom: 0;
 }
 
@@ -319,14 +332,16 @@ h3 {
 
 .subscribe {
   box-sizing: border-box;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 190px;
   padding: 28px 55px;
   margin-bottom: 74px;
-  background-color: var(--main-dark);
+
   color: var(--white);
+  background-color: var(--main-dark);
 }
 
 .footer-title {
@@ -353,6 +368,7 @@ h3 {
   width: 100%;
   height: 50px;
   padding: 15px;
+
   border: transparent;
   border-radius: 0;
 }
@@ -362,6 +378,7 @@ h3 {
   width: 70px;
   height: 50px;
   padding: 0;
+
   background-color: var(--main);
   border: transparent;
 }
@@ -374,6 +391,7 @@ h3 {
   width: 20px;
   height: 20px;
   transform: translate(-50%, -50%);
+
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;

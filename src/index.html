@@ -10,21 +10,20 @@
   <body>
     <header class="header bg-img light-style">
       <div class="container">
-        <div class="header-top">
-          <h1>
-            Когнитивные<br />
-            искажения<br />
-            <span class="color-dark">в программировании</span>
-          </h1>
-          <img
-            class="header-img"
-            src="images/main.png"
-            alt="рисунок человечка с ноутбуком"
-          />
-        </div>
+        <h1 class="title">
+          Когнитивные<br />
+          искажения
+          <span class="color-dark">в программировании</span>
+        </h1>
+        <img
+          class="header-img"
+          src="images/main.png"
+          alt="рисунок человечка с ноутбуком"
+        />
+
         <div class="columns">
-          <div class="col-1">
-            <p class="text">
+          <div>
+            <p>
               Мы, разработчики, часто сталкиваемся с проблемами, которые идут
               вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
               картину. Некоторые из этих проблем малозаметны, некоторые
@@ -32,13 +31,13 @@
               сожалению, нет.
             </p>
           </div>
-          <div class="col-2 avoid">
-            <p class="text avoid">
+          <div class="avoid">
+            <p class="avoid">
               Вместе они формируют что-то вроде замкнутого цикла, и это может
               привести к длительной потере продуктивности, багам и бесконечному
               разочарованию.
             </p>
-            <p class="text">
+            <p class="mb-40">
               Если мы сможем минимизировать воздействие одного или нескольких из
               этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
             </p>
@@ -47,14 +46,14 @@
         </div>
       </div>
     </header>
-    <main class="main">
+    <main>
       <section class="distortions">
         <div class="container">
           <h2 class="distortions-title">
-            <span class="color-dark">Что же это такое,</span><br />
+            <span class="color-dark">Что же это такое,</span>
             когнитивные искажения?
           </h2>
-          <p class="text distortions-text">
+          <p class="distortions-text">
             Что такое когнитивные искажения. Petrovna Channel
           </p>
           <iframe
@@ -62,7 +61,6 @@
             width="919"
             height="569"
             src="https://www.youtube.com/embed/jie9AizBqss"
-            frameborder="0"
             allowfullscreen
           ></iframe>
         </div>
@@ -73,7 +71,7 @@
           <ul class="nav-list">
             <li class="nav-item">
               <h3 class="nav-title">
-                5 когнитивных искажений<br />
+                5 когнитивных искажений
                 <span class="color-white"
                   >о&#160;существовании которых стоит помнить</span
                 >
@@ -83,7 +81,7 @@
               <a href="#ikea-effect" class="nav-link">
                 <div class="nav-num">1</div>
                 <h3>Эффект ИКЕА</h3>
-                <p class="text">
+                <p>
                   Вы переоцениваете собственные решения, и, как следствие,
                   недооцениваете решения других.
                 </p>
@@ -93,7 +91,7 @@
               <a href="#premature-optimization" class="nav-link">
                 <div class="nav-num">2</div>
                 <h3>Преждевременная оптимизация</h3>
-                <p class="text">
+                <p>
                   Вы оптимизируете что-то задолго до того, как в этом появляется
                   необходимость.
                 </p>
@@ -103,7 +101,7 @@
               <a href="#distortion-of-novelty" class="nav-link">
                 <div class="nav-num">3</div>
                 <h3>Искажение новизны</h3>
-                <p class="text">
+                <p>
                   Вы даёте более высокую оценку тем событиям, которые произошли
                   недавно, и недооцениваете более старые.
                 </p>
@@ -113,7 +111,7 @@
               <a href="#hyperbolic-depreciation" class="nav-link">
                 <div class="nav-num">4</div>
                 <h3>Гиперболическое обесценивание</h3>
-                <p class="text">
+                <p>
                   Вы гонитесь за немедленной маленькой выгодой и игнорируете
                   более крупную, недоступную сейчас, но доступную в будущем.
                 </p>
@@ -123,7 +121,7 @@
               <a href="#errors-in-planning" class="nav-link">
                 <div class="nav-num">5</div>
                 <h3>Ошибка планирования</h3>
-                <p class="text">
+                <p>
                   Неправильно рассчитывать время необходимое для завершения
                   задачи.
                 </p>
@@ -133,7 +131,7 @@
         </div>
       </section>
 
-      <section id="ikea-effect" class="distortion bg-img light-style">
+      <section id="ikea-effect" class="ikea-effect bg-img light-style">
         <div class="container">
           <div class="distortion-top">
             <img
@@ -141,7 +139,7 @@
               src="images/1.png"
               alt="рисунок эффект ИКЕЯ"
             />
-            <div class="distortion-top-content">
+            <div>
               <p class="distortion-subtitle">Когнитивные искажения</p>
               <h2 class="distortion-title">Эффект ИКЕА</h2>
               <p class="distortion-description">
@@ -150,7 +148,7 @@
               </p>
             </div>
           </div>
-          <h4 class="distortion-demo dark-style">Как проявляется</h4>
+          <h3 class="distortion-demo dark-style">Как проявляется</h3>
           <div class="distortion-content">
             <p class="block mr-30">
               Когнитивное искажение называется так из-за того, что потребители
@@ -166,10 +164,10 @@
           </div>
         </div>
       </section>
-      <section id="premature-optimization" class="distortion bg-img dark-style">
+      <section id="premature-optimization" class="bg-img dark-style">
         <div class="container">
           <div class="distortion-top">
-            <div class="distortion-top-content">
+            <div>
               <p class="distortion-subtitle">Когнитивные искажения</p>
               <h2 class="distortion-title">Преждевременная оптимизация</h2>
               <p class="distortion-description">
@@ -184,12 +182,12 @@
             />
           </div>
           <article class="columns">
-            <h4 class="distortion-demo bg-white">Как проявляется</h4>
-            <p class="after-page text">
+            <h3 class="distortion-demo bg-white">Как проявляется</h3>
+            <p class="after-page">
               Если вы добавите аэродинамический спойлер к своему старому
               автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
             </p>
-            <p class="text avoid">
+            <p class="avoid">
               Отличный пример: писать максимально подтюненный и
               высокопроизводительный код для всего лишь экспериментального
               проекта.
@@ -198,7 +196,7 @@
         </div>
       </section>
 
-      <section id="distortion-of-novelty" class="distortion bg-img light-style">
+      <section id="distortion-of-novelty" class="bg-img light-style">
         <div class="container">
           <div class="distortion-top">
             <img
@@ -206,7 +204,7 @@
               src="images/3.png"
               alt="рисунок Искажение новизны"
             />
-            <div class="distortion-top-content">
+            <div>
               <p class="distortion-subtitle">Когнитивные искажения</p>
               <h2 class="distortion-title">Искажение новизны</h2>
               <p class="distortion-description">
@@ -216,14 +214,14 @@
             </div>
           </div>
           <article class="columns">
-            <h4 class="distortion-demo dark-style">Как проявляется</h4>
-            <p class="after-page text">
+            <h3 class="distortion-demo dark-style">Как проявляется</h3>
+            <p class="after-page">
               Часто это искажение настигает нас, когда нужно решение проблемы и…
               о! Мы как раз только что решили подобную проблему! Давайте
               использовать это же решение, потому что оно сработало, и мы помним
               как!
             </p>
-            <p class="text avoid">
+            <p class="avoid">
               Вы замечаете, что пользуетесь теми же рабочими методиками раз за
               разом? Если да, возможно, вы смотрите на разные проблемы под одним
               и тем же углом.
@@ -234,11 +232,11 @@
 
       <section
         id="hyperbolic-depreciation"
-        class="distortion bg-img dark-style"
+        class="hyperbolic-depreciation bg-img dark-style"
       >
         <div class="container">
           <div class="distortion-top">
-            <div class="distortion-top-content">
+            <div>
               <p class="distortion-subtitle">Когнитивные искажения</p>
               <h2 class="distortion-title">Гиперболическое обесценивание</h2>
               <p class="distortion-description">
@@ -252,7 +250,7 @@
               alt="рисунок Гиперболическое обесценивание"
             />
           </div>
-          <h4 class="distortion-demo bg-white">Как проявляется</h4>
+          <h3 class="distortion-demo bg-white">Как проявляется</h3>
           <div class="distortion-content">
             <p class="block mr-30">
               Вы когда-нибудь откладывали написание теста? Ловили себя на
@@ -270,7 +268,7 @@
         </div>
       </section>
 
-      <section id="errors-in-planning" class="distortion bg-img light-style">
+      <section id="errors-in-planning" class="bg-img light-style">
         <div class="container">
           <div class="distortion-top">
             <img
@@ -278,7 +276,7 @@
               src="images/5.png"
               alt="рисунок Ошибка планирования"
             />
-            <div class="distortion-top-content">
+            <div>
               <p class="distortion-subtitle">Когнитивные искажения</p>
               <h2 class="distortion-title">Ошибка&nbsp;планирования</h2>
               <p class="distortion-description">
@@ -288,15 +286,15 @@
             </div>
           </div>
           <article class="columns">
-            <h4 class="distortion-demo dark-style">Как проявляется</h4>
-            <p class="after-page text">
+            <h3 class="distortion-demo dark-style">Как проявляется</h3>
+            <p class="after-page">
               Одно из искажений, которое должно признать большинство из нас. И
               менеджеры проекта, и сами пользователи продукта — все склонны
               ставить сроки, в которые невозможно закончить запланированное.
             </p>
             <div class="avoid">
-              <p class="text">Это отлично выражается в старом афоризме:</p>
-              <p class="text">
+              <p>Это отлично выражается в старом афоризме:</p>
+              <p>
                 Первые 90% готового кода отнимают первые 90% времени разработки.
                 Оставшиеся 10% отнимают вторые 90% времени разработки.
               </p>

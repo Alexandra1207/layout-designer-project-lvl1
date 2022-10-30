@@ -73,6 +73,52 @@ h3 {
   font-size: 34px;
 }
 
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-dark {
+  margin-top: 12px;
+
+  color: var(--dark);
+}
+
 .bg-img {
   position: relative;
 }
@@ -103,26 +149,26 @@ h3 {
   background-color: var(--light);
 }
 
-.color-white {
-  display: block;
-
-  color: var(--white);
-}
-
-.color-dark {
-  display: block;
-
-  color: var(--dark);
-}
-
 .container {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
 }
 
-.avoid {
-  break-inside: avoid;
+.m-0 {
+  margin: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mr-30 {
@@ -134,7 +180,7 @@ h3 {
 }
 
 .title {
-  margin-bottom: 198px;
+  margin-bottom: 182px;
 }
 
 .header-img {
@@ -148,22 +194,11 @@ h3 {
   height: 525px;
 }
 
-.columns {
-  column-count: 2;
-  column-gap: 30px;
-}
-
-.columns p {
-  margin-top: 0;
-}
-
-.nav-link p {
-  color: var(--dark);
+.flex-column {
+  flex: 1 1 540px;
 }
 
 .nav-num {
-  margin-bottom: 40px;
-
   color: var(--main-dark);
 
   font: 64px/1 Neucha, sans-serif;
@@ -175,30 +210,20 @@ h3 {
   transition: color 1s;
 }
 
-.mb-40 {
-  margin-bottom: 40px;
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+}
+
+.bg-main {
+  background-color: var(--main);
 }
 
 .header-link {
-  display: inline-block;
-  padding: 12px 24px;
-
-  color: var(--white);
-
   font-weight: 700;
-
-  text-align: center;
 
   text-transform: uppercase;
   text-decoration: none;
-
-  background-color: var(--main);
-
-  cursor: pointer;
-}
-
-.distortions {
-  text-align: center;
 }
 
 .distortions-text {
@@ -224,21 +249,18 @@ h3 {
 }
 
 .nav-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  margin: 0 0 -20px;
   padding: 0;
 
   list-style-type: none;
 }
 
-.nav-item {
-  width: 100%;
-  max-width: 350px;
+.gap-30-20 {
+  column-gap: 30px;
+  row-gap: 20px;
+}
 
-  margin-bottom: 20px;
+.nav-item {
+  flex: 1 1 350px;
 }
 
 .nav-title {
@@ -268,25 +290,11 @@ h3 {
   color: var(--white);
 }
 
-.nav-link p:last-of-type {
-  margin-bottom: 0;
-}
-
-.distortion-top {
-  display: flex;
-}
-
 .light-style h2 {
   color: var(--dark);
 }
 
-.light-style .distortion-img {
-  margin-right: 30px;
-}
-
 .distortion-subtitle {
-  margin: 0;
-
   color: var(--semi-dark);
 
   font: 24px/1.2 Neucha, sans-serif;
@@ -297,36 +305,21 @@ h3 {
 }
 
 .distortion-description {
-  margin: 0;
-
   font: 34px/1.2 Neucha, sans-serif;
 }
 
 .distortion-demo {
-  margin: 100px 0 20px;
   padding: 5px 10px;
 
   font: 14px/1.2 OpenSans, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-
-  column-span: all;
 }
 
 .dark-style {
   z-index: 0;
 
-  color: var(--white);
-
   background-color: var(--brown);
-}
-
-.dark-style .distortion-img {
-  margin-left: 30px;
-}
-
-.dark-style h2 {
-  color: var(--white);
 }
 
 .dark-style .distortion-subtitle {
@@ -339,30 +332,7 @@ h3 {
   background-color: var(--white);
 }
 
-.ikea-effect .distortion-demo,
-.hyperbolic-depreciation .distortion-demo {
-  margin-bottom: 0;
-}
-
-.distortion-content {
-  display: flex;
-}
-
-.block {
-  width: 100%;
-  max-width: 540px;
-}
-
-.footer {
-  text-align: center;
-}
-
 .subscribe {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-
   box-sizing: border-box;
 
   height: 190px;
@@ -370,28 +340,16 @@ h3 {
   margin-bottom: 74px;
   padding: 28px 55px;
 
-  color: var(--white);
-
   background-color: var(--main-dark);
 }
 
-.footer-title {
-  text-align: left;
-}
-
-.subscribe-form {
-  text-align: left;
-}
-
 .subscribe-label {
-  display: block;
   margin-bottom: 10px;
 
   font-size: 18px;
 }
 
 .input-block {
-  display: flex;
   width: 485px;
 }
 
@@ -405,15 +363,16 @@ h3 {
   border-radius: 0;
 }
 
+.border-transparent {
+  border: transparent;
+}
+
 .subscribe-btn {
   position: relative;
 
   width: 70px;
   height: 50px;
   padding: 0;
-
-  background-color: var(--main);
-  border: transparent;
 }
 
 .subscribe-btn::before {
@@ -434,13 +393,7 @@ h3 {
 }
 
 .subscribe-consent {
-  margin: 0;
-
   font-size: 12px;
-}
-
-.subscribe-link {
-  color: var(--white);
 }
 
 .footer-contact,

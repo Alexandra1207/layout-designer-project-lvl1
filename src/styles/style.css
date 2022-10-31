@@ -246,8 +246,6 @@ h3 {
 
 .nav {
   padding-top: 100px;
-
-  background-color: var(--main-dark);
 }
 
 .nav-list {
@@ -261,13 +259,23 @@ h3 {
   row-gap: 20px;
 }
 
-.nav-item {
+.flex-1-1-350 {
   flex: 1 1 350px;
+}
+
+.nav-item {
+  background-color: var(--light);
+
+  transition: all 0.5s;
 }
 
 .nav-title {
   font-size: 52px;
   line-height: 1.2;
+}
+
+.nav-item:hover {
+  background-color: var(--main);
 }
 
 .nav-link {
@@ -276,14 +284,6 @@ h3 {
   padding: 24px;
 
   text-decoration: none;
-
-  background-color: var(--light);
-
-  transition: all 0.5s;
-}
-
-.nav-link:hover {
-  background-color: var(--main);
 }
 
 .nav-link:hover .nav-num,
@@ -334,6 +334,10 @@ h3 {
   background-color: var(--white);
 }
 
+.bg-dark {
+  background-color: var(--main-dark);
+}
+
 .subscribe {
   box-sizing: border-box;
 
@@ -341,8 +345,6 @@ h3 {
 
   margin-bottom: 74px;
   padding: 28px 55px;
-
-  background-color: var(--main-dark);
 }
 
 .subscribe-label {
@@ -358,11 +360,9 @@ h3 {
 .subscribe-input {
   box-sizing: border-box;
   width: 100%;
-  height: 50px;
   padding: 15px;
 
   border: transparent;
-  border-radius: 0;
 }
 
 .border-transparent {
